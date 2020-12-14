@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="eng"><head>
+     <style>
+        header {
+            width: 100%;
+            height: 50px;
+        }
+        #logo {
+            display: block;
+            margin: auto;
+            margin-top: 75px;
+        } 
+
+        #share {
+            position: relative;
+            left: 860px;
+            top: -9px;
+        }
+        .searchbar {
+            width: 580px;
+            height: 43px;
+            border-style: solid;
+            border-width: 0.5px;
+            border-color: hsl(0, 0%, 75%);
+            border-radius: 40px;
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .searchbar:hover {
+            box-shadow: 1px 1px 1px 1px hsl(0 0% 85%);
+        }
+        input {
+            width: 90%;
+            display: block;
+            height: 60%;
+            margin: auto;
+            margin-top: 7px;
+            border: none;
+            font-size: 30px;
+            font-weight: 1;
+            font-family: Arial;
+        }
+        .searchbutton {
+            background-color: hsl(0, 0%, 96%);
+            border: none;
+            box-shadow: none;
+            height: 35px;
+            width: 140px;
+            border-radius: 3px;
+            font-size: 14px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+        .searchbutton:hover{
+            border-style: solid;
+            border-width: 0.3px;
+            border-color:hsl(0, 0%, 75%);
+        }
+        
+
+
+        #language {
+            display: flex;
+            margin-right: 5px;
+            font-size: 14px;
+            justify-content: center;
+            margin-top: 17px;
+            font-family: calibri;
+        }
+        #region {
+            margin-left: 5px;
+            margin-top: 14px;
+        }
+        .useraccount {
+            display: table-cell;
+            height: 32px;
+            width: 32px;
+            background-color: rgb(27, 139, 139);
+            border-radius: 50%;
+            position: absolute;
+            left: 1266px;
+            top: 14px;
+        }
+        .headlink {
+            display: table-cell;
+        }
+        #user {
+            color: white;
+            position: absolute;
+            top: -48%;
+            left: 30%;
+            font-size: 20px;
+            font-family: calibri;
+        }
+        .nav {
+            display: inline-block;
+            position: absolute;
+            left: 1110px;
+            top: 21px;
+        }
+
+        .link {
+            font-size: 15px;
+            margin-left: 7px;
+            text-decoration: none;
+            color: black;
+            font-family: calibri;
+        }
+        .footlink {
+            font-size: 14px;
+            margin-left: 22px;
+            text-decoration:none;
+            color: rgb(119, 116, 116);
+            font-family: arial;
+        }
+        .footelement {
+            position: absolute;
+            bottom: 10px;
+            left: 15px;
+        }
+        .footelement2 {
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+        }
+        
+        .link:hover, .footlink:hover{
+            text-decoration: underline;
+        }
+        #footer {
+            position: absolute;
+            width: 100%;
+            height: 40px;
+            background-color: hsl(0, 0%, 93%);
+            border-style: solid;
+            border-width: 0.5px;
+            border-color: hsl(0, 0%, 70%);
+            bottom: 0px;
+            left: 0px;
+        }
+        </style>
+    </head>
+    <body><header>
+        <div class="nav">
+            <a href="gmail.com" alt="Gmail link" class="link">Gmail</a>
+            <a href="https://www.google.no/imghp?hl=en&amp;tab=wi&amp;ogbl&quot;" class="link" alt="Google image search link">Images</a>
+        </div>
+        <div class="useraccount">
+            <p id="user">R</p>
+        </div>
+    </header>
+
+    
+        <div id="logo">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google's logo">
+            <img id="share" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAoklEQVR42mMwTvvPQAZ2AOKZQPwAimdCxeBqyDX0DBD/R8NnkA0nx+CZWAyF4ZmUGPwAj8EPBp3BzkB8mdSgwBfTMkC8EsmAW8RGHq6YPgu14DOUD6IrgNiF2OSGL6ZheDUQyxEbbMREyCcgdiU1kkmKaXIMxhcUlylxMa7Iu0VpGONKbqDYL6ckVRDCZKdjmua84VkI0bQ8plkNQrM6jygMAODsqWK79M8/AAAAAElFTkSuQmCC" alt="Share button">
+        </div>
+
+
+        <div class="searchbar">
+            <input id="searchbar" type="text">
+        </div>
+        <div class="buttons">
+            <button id="search" class="searchbutton" style="margin-right:12px">Google Search</button>
+            <button id="lucky" class="searchbutton" style="margin-right:12px">I'm Feeling Lucky</button>
+        </div>
+        <div id="language">
+            <p> Google offered in:</p>
+            <a href="https://www.google.com/setprefs?sig=0_m2DGattX8kuC97WK94Njatxb6HY%3D&amp;hl=no&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjziIDIo8ztAhUNExQKHSidBwkQ2ZgBCA8" alt="Link to norwegian google" id="region">norsk</a>
+        </div>
+
+    <footer id="footer">
+        <div class="footelement">
+            <a href="ads.google.com" alt="Link to google ads" class="footlink">Advertising</a>
+            <a href="https://www.google.com/services/" alt="Link to Google business" class="footlink">Business</a>
+            <a href="https://about.google" alt="About google link" class="footlink">About</a>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1" alt="Link about how search works" class="footlink">How Search works</a>
+        </div>
+        <div class="footelement2">
+            <a href="https://policies.google.com/privacy?" alt="Link to privacy" class="footlink">Privacy</a>
+            <a href="https://policies.google.com/terms" alt="Link to Google Terms" class="footlink">Terms</a>
+            <a href="https://www.google.com/preferences" alt="Settings link" class="footlink">Settings</a>
+
+        </div>
+    </footer>
+</html>
